@@ -6,5 +6,7 @@ jinja2
 email-validator
 sqlalchemy
 icecream
+passlib
+python-jose
 psycopg2-binary
 
