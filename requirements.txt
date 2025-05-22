@@ -6,4 +6,5 @@ jinja2
 email-validator
 sqlalchemy
 icecream
+psycopg2
 
