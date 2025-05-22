@@ -1,5 +1,5 @@
 from sqlalchemy import Column,Integer,String,Boolean,ARRAY,LargeBinary
-from backend.database.database import Base
+from database.database import Base
 from  sqlalchemy.orm import relationship
 
 class CarouselBanner(Base):

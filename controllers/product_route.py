@@ -2,9 +2,9 @@ from fastapi import FastAPI, File, UploadFile, Form, Depends, HTTPException, sta
 from sqlalchemy.orm import Session
 from sqlalchemy import select,desc,func
 from uuid import uuid4,uuid5
-from backend.database.depends.getdb import get_db
-from backend.database.databasemodels import product_models
-from backend.Authentication.Authenticationuser.user import get_protected
+from database.depends.getdb import get_db
+from database.databasemodels import product_models
+from Authentication.Authenticationuser.user import get_protected
 from fastapi import APIRouter
 
 

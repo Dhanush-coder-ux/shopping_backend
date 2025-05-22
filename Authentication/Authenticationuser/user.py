@@ -1,10 +1,10 @@
 from fastapi import FastAPI, Depends, HTTPException, status, APIRouter,Form
-from backend.database import schema, database
-from backend.Authentication.jwtandhashing import hashing, auth
+from database import schema, database
+from Authentication.jwtandhashing import hashing, auth
 from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordBearer
-from backend.database.databasemodels import models
-from backend.database.depends import getdb
+from database.databasemodels import models
+from database.depends import getdb
 
 
 

@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from backend.Authentication.Authenticationuser import user
-from backend.controllers import cart_route
-from backend.controllers import product_route
-from backend.controllers import order_controls
-from backend.database.databasemodels import models
-from backend.database import database
+from Authentication.Authenticationuser import user
+from controllers import cart_route
+from controllers import product_route
+from controllers import order_controls
+from database.databasemodels import models
+from database import database
 
 
 

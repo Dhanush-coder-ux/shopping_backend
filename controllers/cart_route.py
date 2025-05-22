@@ -1,8 +1,8 @@
 from fastapi import FastAPI, APIRouter, Depends, HTTPException
-from backend.Authentication.Authenticationuser.user import get_protected
-from backend.database.databasemodels.models import Cart
-from backend.database.depends import getdb
-from backend.database.databasemodels import product_models
+from Authentication.Authenticationuser.user import get_protected
+from database.databasemodels.models import Cart
+from database.depends import getdb
+from database.databasemodels import product_models
 from sqlalchemy.orm import Session
 from sqlalchemy import select,func
 from pydantic import BaseModel

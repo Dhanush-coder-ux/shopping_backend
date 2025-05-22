@@ -1,10 +1,10 @@
 from fastapi import APIRouter,Depends,HTTPException,status
-from backend.database.depends import getdb
+from database.depends import getdb
 from sqlalchemy.orm import Session
-from backend.Authentication.Authenticationuser.user import get_protected
+from Authentication.Authenticationuser.user import get_protected
 from pydantic import BaseModel
 from typing import List
-from backend.database.databasemodels.order_model import Orders,OrderStatus
+from database.databasemodels.order_model import Orders,OrderStatus
 from icecream import ic
 
 router=APIRouter(tags=["Orders"])

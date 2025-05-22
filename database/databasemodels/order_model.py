@@ -1,5 +1,5 @@
 from sqlalchemy import String, Column, Integer, ForeignKey, ARRAY, Boolean, DateTime, func, Enum as SQLenum
-from backend.database.database import Base
+from database.database import Base
 from sqlalchemy.orm import relationship
 from sqlalchemy.dialects.postgresql import JSONB
 from enum import Enum

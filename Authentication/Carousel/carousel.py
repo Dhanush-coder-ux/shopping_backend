@@ -1,9 +1,9 @@
 from fastapi import FastAPI,HTTPException,Depends,UploadFile,APIRouter,File,status
 from pydantic import BaseModel
 from typing import List
-from backend.database.depends.getdb import get_db
+from database.depends.getdb import get_db
 from sqlalchemy.orm import Session
-from backend.Authentication.Authenticationuser.user import get_protected
+from Authentication.Authenticationuser.user import get_protected
 
 
 
